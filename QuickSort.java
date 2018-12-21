@@ -45,7 +45,7 @@ public class quickSort {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		long startTime = System.nanoTime();
-		int A[] = {20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1};
+		int A[] = {9,4,18,14,16,17,20,1,11,19,3,7,8,10,13,15,6,2,5,12};
 		int length = A.length-1;
 		quickSort(A,0,length);
 		printAll(A);
