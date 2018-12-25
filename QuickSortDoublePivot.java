@@ -2,8 +2,6 @@ import javax.swing.*;
 import java.util.*;
 import java.util.Arrays;
 
-
-
 public class twoPivotQuickSort {
 
 	public static void swapNumber(int A[],int i, int j)
